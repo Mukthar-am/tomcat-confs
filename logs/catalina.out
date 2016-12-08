@@ -1,0 +1,1236 @@
+30-Nov-2016 04:06:03.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M13
+30-Nov-2016 04:06:03.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2016 20:59:41 UTC
+30-Nov-2016 04:06:03.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+30-Nov-2016 04:06:03.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Nov-2016 04:06:03.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-47-generic
+30-Nov-2016 04:06:03.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Nov-2016 04:06:03.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+30-Nov-2016 04:06:03.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Nov-2016 04:06:03.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2016 04:06:03.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat9
+30-Nov-2016 04:06:03.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat9
+30-Nov-2016 04:06:03.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat9/conf/logging.properties
+30-Nov-2016 04:06:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2016 04:06:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2016 04:06:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2016 04:06:03.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat9
+30-Nov-2016 04:06:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat9
+30-Nov-2016 04:06:03.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat9/temp
+30-Nov-2016 04:06:03.137 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+30-Nov-2016 04:06:03.270 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 04:06:03.285 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 04:06:03.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 04:06:03.289 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 04:06:03.290 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 612 ms
+30-Nov-2016 04:06:03.316 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Nov-2016 04:06:03.316 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M13
+30-Nov-2016 04:06:03.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat9/webapps/tas-1.0.war
+30-Nov-2016 04:06:04.973 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-11-30 04:06:05.769  INFO 16714 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Starting Application on games-tourlatics with PID 16714 (/opt/tomcat9/webapps/tas-1.0/WEB-INF/classes started by deploy in /opt/tomcat9)
+2016-11-30 04:06:05.773  INFO 16714 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : No active profile set, falling back to default profiles: default
+2016-11-30 04:06:05.837  INFO 16714 --- [ost-startStop-1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@573a4e5d: startup date [Wed Nov 30 04:06:05 UTC 2016]; root of context hierarchy
+2016-11-30 04:06:07.067  INFO 16714 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1230 ms
+2016-11-30 04:06:07.524  INFO 16714 --- [ost-startStop-1] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2016-11-30 04:06:07.850  INFO 16714 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-30 04:06:07.852  INFO 16714 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2016-11-30 04:06:07.852  INFO 16714 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-30 04:06:07.853  INFO 16714 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-30 04:06:07.853  INFO 16714 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-30 04:06:07.853  INFO 16714 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-30 04:06:08.187  INFO 16714 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@573a4e5d: startup date [Wed Nov 30 04:06:05 UTC 2016]; root of context hierarchy
+2016-11-30 04:06:08.266  INFO 16714 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/track],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.TrackResponse com.adof.gameserver.tas.TasController.tas(java.lang.String)
+2016-11-30 04:06:08.268  INFO 16714 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tmgr],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.ResponsePayload com.adof.gameserver.tas.TournamentMgrController.track(java.lang.String)
+2016-11-30 04:06:08.268  INFO 16714 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tcntrl],methods=[GET],produces=[application/json]}" onto public com.adof.gameserver.tas.TournamentStartStopApi$StartStopApiResponse com.adof.gameserver.tas.TournamentStartStopApi.track(java.lang.String,java.lang.String,java.lang.String)
+2016-11-30 04:06:08.272  INFO 16714 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-30 04:06:08.272  INFO 16714 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-30 04:06:08.275  INFO 16714 --- [ost-startStop-1] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-11-30 04:06:08.290  INFO 16714 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-11-30 04:06:08.303  INFO 16714 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 04:06:08.303  INFO 16714 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 04:06:08.350  INFO 16714 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 04:06:08.472  INFO 16714 --- [ost-startStop-1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-30 04:06:08.485  INFO 16714 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Started Application in 3.311 seconds (JVM running for 5.989)
+====== Starting up!
+Properties file: /opt/tomcat9/webapps/tas/WEB-INF/classes/com/adof/games/tas.properties
+#:= Refresh on tournaments metadata...
+2016-11-30 04:06:08
+[[Tid: 1=(Name: Daily 20, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 2, MinUsers: 2, )], [Tid: 2=(Name: Daily 50, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 2, MinUsers: 2, )], [Tid: 3=(Name: Daily 100, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, )], [Tid: 4=(Name: Daily 150, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, )]]
+#:= Refresh on tournaments metadata...
+2016-11-30 04:06:08
+[[Tid: 1=(Name: Daily 20, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 2, MinUsers: 2, )], [Tid: 2=(Name: Daily 50, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 2, MinUsers: 2, )], [Tid: 3=(Name: Daily 100, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, )], [Tid: 4=(Name: Daily 150, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, )]]
+[[Tid: 1=(Name: Daily 20, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 2, MinUsers: 2, )], [Tid: 2=(Name: Daily 50, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 2, MinUsers: 2, )], [Tid: 3=(Name: Daily 100, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, )], [Tid: 4=(Name: Daily 150, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, )]]
+2016-11-30 04:06:08.543  INFO 16714 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2016-11-30 04:06:08.546  INFO 16714 --- [ost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2016-11-30 04:06:08.564  INFO 16714 --- [ost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-11-30 04:06:08.567  INFO 16714 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2016-11-30 04:06:08.569  INFO 16714 --- [ost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2016-11-30 04:06:08.570  INFO 16714 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-30 04:06:08.571  INFO 16714 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-11-30 04:06:08.571  INFO 16714 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2016-11-30 04:06:08.571  INFO 16714 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+:= Static initializer for Db connection pool.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+:= Initialization complete...
+[EnvironmentManager]: = Instance initializer for environment variables.
+# Could not understand the input - db.max.connections
+30-Nov-2016 04:07:50.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M13
+30-Nov-2016 04:07:50.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2016 20:59:41 UTC
+30-Nov-2016 04:07:50.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+30-Nov-2016 04:07:50.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Nov-2016 04:07:50.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-47-generic
+30-Nov-2016 04:07:50.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Nov-2016 04:07:50.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+30-Nov-2016 04:07:50.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Nov-2016 04:07:50.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2016 04:07:50.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat9
+30-Nov-2016 04:07:50.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat9
+30-Nov-2016 04:07:50.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat9/conf/logging.properties
+30-Nov-2016 04:07:50.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2016 04:07:50.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2016 04:07:50.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2016 04:07:50.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat9
+30-Nov-2016 04:07:50.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat9
+30-Nov-2016 04:07:50.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat9/temp
+30-Nov-2016 04:07:50.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+30-Nov-2016 04:07:50.188 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 04:07:50.211 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 04:07:50.214 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 04:07:50.215 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 04:07:50.217 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 696 ms
+30-Nov-2016 04:07:50.253 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Nov-2016 04:07:50.253 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M13
+30-Nov-2016 04:07:50.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat9/webapps/tas.war
+30-Nov-2016 04:07:51.934 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-11-30 04:07:52.822  INFO 16812 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Starting Application on games-tourlatics with PID 16812 (/opt/tomcat9/webapps/tas/WEB-INF/classes started by deploy in /opt/tomcat9)
+2016-11-30 04:07:52.825  INFO 16812 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : No active profile set, falling back to default profiles: default
+2016-11-30 04:07:52.876  INFO 16812 --- [ost-startStop-1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39efd258: startup date [Wed Nov 30 04:07:52 UTC 2016]; root of context hierarchy
+2016-11-30 04:07:54.136  INFO 16812 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1260 ms
+2016-11-30 04:07:54.697  INFO 16812 --- [ost-startStop-1] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2016-11-30 04:07:55.033  INFO 16812 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-30 04:07:55.035  INFO 16812 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2016-11-30 04:07:55.035  INFO 16812 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-30 04:07:55.035  INFO 16812 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-30 04:07:55.035  INFO 16812 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-30 04:07:55.035  INFO 16812 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-30 04:07:55.355  INFO 16812 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39efd258: startup date [Wed Nov 30 04:07:52 UTC 2016]; root of context hierarchy
+2016-11-30 04:07:55.436  INFO 16812 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/track],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.TrackResponse com.adof.gameserver.tas.TasController.tas(java.lang.String)
+2016-11-30 04:07:55.437  INFO 16812 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tmgr],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.ResponsePayload com.adof.gameserver.tas.TournamentMgrController.track(java.lang.String)
+2016-11-30 04:07:55.438  INFO 16812 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tcntrl],methods=[GET],produces=[application/json]}" onto public com.adof.gameserver.tas.TournamentStartStopApi$StartStopApiResponse com.adof.gameserver.tas.TournamentStartStopApi.track(java.lang.String,java.lang.String,java.lang.String)
+2016-11-30 04:07:55.442  INFO 16812 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-30 04:07:55.442  INFO 16812 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-30 04:07:55.445  INFO 16812 --- [ost-startStop-1] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-11-30 04:07:55.459  INFO 16812 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-11-30 04:07:55.473  INFO 16812 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 04:07:55.473  INFO 16812 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 04:07:55.546  INFO 16812 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 04:07:55.705  INFO 16812 --- [ost-startStop-1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-30 04:07:55.718  INFO 16812 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Started Application in 3.56 seconds (JVM running for 6.38)
+[TasInitializer]: ====== Starting up!
+Properties file: /opt/tomcat9/webapps/tas/WEB-INF/classes/com/adof/games/tas.properties
+[EnvironmentManager]: = Instance initializer for environment variables.
+[TourmanentsMetaJob]: Static init called.
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 04:07:55
+:= Static initializer for Db connection pool.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+:= Initialization complete...
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 04:07:56
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[[Tid: 1=(Name: Tournament 1, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 40, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 2=(Name: Tournament 2, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 125, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 3=(Name: Tournament 3, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 250, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 4=(Name: Tournament 4, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 450, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))]]
+2016-11-30 04:07:56.265  INFO 16812 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2016-11-30 04:07:56.276  INFO 16812 --- [ost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2016-11-30 04:07:56.347  INFO 16812 --- [ost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-11-30 04:07:56.348  INFO 16812 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2016-11-30 04:07:56.349  INFO 16812 --- [ost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2016-11-30 04:07:56.350  INFO 16812 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-30 04:07:56.350  INFO 16812 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-11-30 04:07:56.350  INFO 16812 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2016-11-30 04:07:56.350  INFO 16812 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-30 04:18:31.679  INFO 16812 --- [ost-startStop-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [635,314] milliseconds.
+2016-11-30 04:18:31.719  INFO 16812 --- [ost-startStop-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization started
+2016-11-30 04:18:31.723  INFO 16812 --- [ost-startStop-1] .s.AnnotationConfigWebApplicationContext : Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 04:18:31 UTC 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39efd258
+2016-11-30 04:18:31.725  INFO 16812 --- [ost-startStop-1] .s.AnnotationConfigWebApplicationContext : No annotated classes found for specified class/package [sample.traditional.config]
+2016-11-30 04:18:31.785  INFO 16812 --- [ost-startStop-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization completed in 65 ms
+30-Nov-2016 04:18:31.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat9/webapps/tas.war has finished in 641,539 ms
+30-Nov-2016 04:18:31.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/host-manager
+30-Nov-2016 04:18:31.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/host-manager has finished in 53 ms
+30-Nov-2016 04:18:31.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/examples
+30-Nov-2016 04:18:32.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/examples has finished in 336 ms
+30-Nov-2016 04:18:32.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/manager
+30-Nov-2016 04:18:32.284 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/manager has finished in 68 ms
+30-Nov-2016 04:18:32.284 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/ROOT
+30-Nov-2016 04:18:32.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/ROOT has finished in 21 ms
+30-Nov-2016 04:18:32.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/docs
+30-Nov-2016 04:18:32.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/docs has finished in 11 ms
+30-Nov-2016 04:18:32.480 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+30-Nov-2016 04:18:32.523 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+30-Nov-2016 04:18:32.539 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 642322 ms
+
+===========================================
+# HelloJob: "2016-11-30 04:20:00" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+# [GamePlayHelpers]: "Tournament Play" request from user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select id from users
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+# [UsersFactory]: 
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: NOT a New user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select total_coins, daily_bonus_claimed from users where id = '31'
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+===
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: Daily_Bonus_Flag = 1, Total_Coins=4250, DailyBonusCoins = 0
+
+# [GamePlayHelpers]: "Tournament Play" request from user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select id from users
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+# [UsersFactory]: 
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: NOT a New user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select total_coins, daily_bonus_claimed from users where id = '31'
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+===
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: Daily_Bonus_Flag = 1, Total_Coins=4250, DailyBonusCoins = 0
+
+# [GamePlayHelpers]: "Tournament Play" request from user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select id from users
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+# [UsersFactory]: 
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: NOT a New user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select total_coins, daily_bonus_claimed from users where id = '31'
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+===
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: Daily_Bonus_Flag = 1, Total_Coins=4250, DailyBonusCoins = 0
+
+===========================================
+# HelloJob: "2016-11-30 04:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+# [GamePlayHelpers]: "Tournament Play" request from user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select id from users
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+# [UsersFactory]: 
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: NOT a New user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select total_coins, daily_bonus_claimed from users where id = '31'
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+===
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: Daily_Bonus_Flag = 1, Total_Coins=4250, DailyBonusCoins = 0
+
+===========================================
+# HelloJob: "2016-11-30 05:20:00" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+# [GamePlayHelpers]: "Tournament Play" request from user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select id from users
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+# [UsersFactory]: 
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: NOT a New user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select total_coins, daily_bonus_claimed from users where id = '31'
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+===
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: Daily_Bonus_Flag = 1, Total_Coins=4250, DailyBonusCoins = 0
+
+# [GamePlayHelpers]: "Tournament Play" request from user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select id from users
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+# [UsersFactory]: 
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: NOT a New user.
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: select total_coins, daily_bonus_claimed from users where id = '31'
+PostgresDbHelper: #:= Finally is not implemented yet.
+
+===
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+# [GamePlayHelpers]: Daily_Bonus_Flag = 1, Total_Coins=4250, DailyBonusCoins = 0
+30-Nov-2016 05:48:04.702 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Nov-2016 05:48:04.703 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 05:48:04.754 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 05:48:04.805 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+2016-11-30 05:48:04.823  INFO 16812 --- [ost-startStop-2] .s.AnnotationConfigWebApplicationContext : Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 04:18:31 UTC 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39efd258
+2016-11-30 05:48:04.831  INFO 16812 --- [ost-startStop-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39efd258: startup date [Wed Nov 30 04:07:52 UTC 2016]; root of context hierarchy
+2016-11-30 05:48:04.843  INFO 16812 --- [ost-startStop-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+:= Size of DB Connection pool - 60
+:= Conn pool is empty now Size = 0
+# CoinManager: := CoinManager thread terminated.
+2016-11-30 05:48:04.884  INFO 16812 --- [ost-startStop-2] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-11-30 05:48:04.885  INFO 16812 --- [ost-startStop-2] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-11-30 05:48:04.886  INFO 16812 --- [ost-startStop-2] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+Shutting down!
+30-Nov-2016 05:48:04.901 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tas] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Nov-2016 05:48:04.904 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.905 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.905 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.906 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.908 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.908 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.909 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.910 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.910 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:48:04.984 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 05:48:04.989 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 05:48:04.997 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 05:48:04.997 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 05:48:05.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M13
+30-Nov-2016 05:48:05.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2016 20:59:41 UTC
+30-Nov-2016 05:48:05.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+30-Nov-2016 05:48:05.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Nov-2016 05:48:05.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-47-generic
+30-Nov-2016 05:48:05.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Nov-2016 05:48:05.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+30-Nov-2016 05:48:05.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Nov-2016 05:48:05.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2016 05:48:05.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat9
+30-Nov-2016 05:48:05.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat9
+30-Nov-2016 05:48:05.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat9/conf/logging.properties
+30-Nov-2016 05:48:05.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2016 05:48:05.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2016 05:48:05.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2016 05:48:05.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat9
+30-Nov-2016 05:48:05.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat9
+30-Nov-2016 05:48:05.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat9/temp
+30-Nov-2016 05:48:05.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+30-Nov-2016 05:48:05.691 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 05:48:05.725 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 05:48:05.727 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 05:48:05.729 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 05:48:05.729 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 735 ms
+30-Nov-2016 05:48:05.756 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Nov-2016 05:48:05.757 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M13
+30-Nov-2016 05:48:05.779 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat9/webapps/tas.war
+30-Nov-2016 05:48:07.395 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-11-30 05:48:08.292  INFO 17420 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Starting Application on games-tourlatics with PID 17420 (/opt/tomcat9/webapps/tas/WEB-INF/classes started by deploy in /opt/tomcat9)
+2016-11-30 05:48:08.305  INFO 17420 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : No active profile set, falling back to default profiles: default
+2016-11-30 05:48:08.363  INFO 17420 --- [ost-startStop-1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37da2b13: startup date [Wed Nov 30 05:48:08 UTC 2016]; root of context hierarchy
+2016-11-30 05:48:09.521  INFO 17420 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1159 ms
+2016-11-30 05:48:10.030  INFO 17420 --- [ost-startStop-1] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2016-11-30 05:48:10.419  INFO 17420 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-30 05:48:10.421  INFO 17420 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2016-11-30 05:48:10.422  INFO 17420 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-30 05:48:10.422  INFO 17420 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-30 05:48:10.422  INFO 17420 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-30 05:48:10.422  INFO 17420 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-30 05:48:10.780  INFO 17420 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37da2b13: startup date [Wed Nov 30 05:48:08 UTC 2016]; root of context hierarchy
+2016-11-30 05:48:10.877  INFO 17420 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/track],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.TrackResponse com.adof.gameserver.tas.TasController.tas(java.lang.String)
+2016-11-30 05:48:10.879  INFO 17420 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tmgr],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.ResponsePayload com.adof.gameserver.tas.TournamentMgrController.track(java.lang.String)
+2016-11-30 05:48:10.879  INFO 17420 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tcntrl],methods=[GET],produces=[application/json]}" onto public com.adof.gameserver.tas.TournamentStartStopApi$StartStopApiResponse com.adof.gameserver.tas.TournamentStartStopApi.track(java.lang.String,java.lang.String,java.lang.String)
+2016-11-30 05:48:10.883  INFO 17420 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-30 05:48:10.883  INFO 17420 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-30 05:48:10.886  INFO 17420 --- [ost-startStop-1] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-11-30 05:48:10.899  INFO 17420 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-11-30 05:48:10.912  INFO 17420 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 05:48:10.912  INFO 17420 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 05:48:10.958  INFO 17420 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 05:48:11.078  INFO 17420 --- [ost-startStop-1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-30 05:48:11.093  INFO 17420 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Started Application in 3.446 seconds (JVM running for 6.369)
+[TasInitializer]: ====== Starting up!
+Properties file: /opt/tomcat9/webapps/tas/WEB-INF/classes/com/adof/games/tas.properties
+[EnvironmentManager]: = Instance initializer for environment variables.
+[TourmanentsMetaJob]: Static init called.
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 05:48:11
+:= Static initializer for Db connection pool.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+:= Initialization complete...
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 05:48:11
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[[Tid: 1=(Name: Tournament 1, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 40, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 2=(Name: Tournament 2, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 125, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 3=(Name: Tournament 3, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 250, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 4=(Name: Tournament 4, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 450, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))]]
+2016-11-30 05:48:11.678  INFO 17420 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2016-11-30 05:48:11.682  INFO 17420 --- [ost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2016-11-30 05:48:11.716  INFO 17420 --- [ost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-11-30 05:48:11.718  INFO 17420 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2016-11-30 05:48:11.720  INFO 17420 --- [ost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2016-11-30 05:48:11.721  INFO 17420 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-30 05:48:11.721  INFO 17420 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-11-30 05:48:11.721  INFO 17420 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2016-11-30 05:48:11.722  INFO 17420 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-30 05:51:39.452  INFO 17420 --- [ost-startStop-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207,719] milliseconds.
+2016-11-30 05:51:39.499  INFO 17420 --- [ost-startStop-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization started
+2016-11-30 05:51:39.502  INFO 17420 --- [ost-startStop-1] .s.AnnotationConfigWebApplicationContext : Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 05:51:39 UTC 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37da2b13
+2016-11-30 05:51:39.513  INFO 17420 --- [ost-startStop-1] .s.AnnotationConfigWebApplicationContext : No annotated classes found for specified class/package [sample.traditional.config]
+2016-11-30 05:51:39.581  INFO 17420 --- [ost-startStop-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization completed in 81 ms
+30-Nov-2016 05:51:39.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat9/webapps/tas.war has finished in 213,825 ms
+30-Nov-2016 05:51:39.607 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/host-manager
+30-Nov-2016 05:51:39.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/host-manager has finished in 64 ms
+30-Nov-2016 05:51:39.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/examples
+30-Nov-2016 05:51:39.877 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/examples has finished in 207 ms
+30-Nov-2016 05:51:39.882 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/manager
+30-Nov-2016 05:51:39.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/manager has finished in 26 ms
+30-Nov-2016 05:51:39.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/ROOT
+30-Nov-2016 05:51:39.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/ROOT has finished in 17 ms
+30-Nov-2016 05:51:39.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/docs
+30-Nov-2016 05:51:39.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/docs has finished in 17 ms
+30-Nov-2016 05:51:39.964 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+30-Nov-2016 05:51:39.978 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+30-Nov-2016 05:51:39.979 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 214250 ms
+2016-11-30 05:52:57.063  INFO 17420 --- [nio-8080-exec-3] .s.AnnotationConfigWebApplicationContext : Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 05:51:39 UTC 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37da2b13
+2016-11-30 05:52:57.076  INFO 17420 --- [nio-8080-exec-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37da2b13: startup date [Wed Nov 30 05:48:08 UTC 2016]; root of context hierarchy
+2016-11-30 05:52:57.077  INFO 17420 --- [nio-8080-exec-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+:= Size of DB Connection pool - 60
+:= Conn pool is empty now Size = 0
+2016-11-30 05:52:57.112  INFO 17420 --- [nio-8080-exec-3] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-11-30 05:52:57.113  INFO 17420 --- [nio-8080-exec-3] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-11-30 05:52:57.115  INFO 17420 --- [nio-8080-exec-3] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+Shutting down!
+30-Nov-2016 05:52:57.124 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tas] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+# CoinManager: := CoinManager thread terminated.
+30-Nov-2016 05:52:57.127 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.128 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.128 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.129 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.130 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.130 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.131 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.132 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.132 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.133 WARNING [http-nio-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 05:52:57.656 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tas]
+30-Nov-2016 05:55:36.679 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat9/webapps/tas.war
+SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-11-30 05:55:38.527  INFO 17420 --- [nio-8080-exec-5] com.adof.gameserver.tas.Application      : Starting Application on games-tourlatics with PID 17420 (/opt/tomcat9/webapps/tas/WEB-INF/classes started by deploy in /opt/tomcat9)
+2016-11-30 05:55:38.529  INFO 17420 --- [nio-8080-exec-5] com.adof.gameserver.tas.Application      : No active profile set, falling back to default profiles: default
+2016-11-30 05:55:38.596  INFO 17420 --- [nio-8080-exec-5] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@556933f4: startup date [Wed Nov 30 05:55:38 UTC 2016]; root of context hierarchy
+2016-11-30 05:55:39.625  INFO 17420 --- [nio-8080-exec-5] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1029 ms
+2016-11-30 05:55:40.066  INFO 17420 --- [nio-8080-exec-5] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2016-11-30 05:55:40.337  INFO 17420 --- [nio-8080-exec-5] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-30 05:55:40.338  INFO 17420 --- [nio-8080-exec-5] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2016-11-30 05:55:40.338  INFO 17420 --- [nio-8080-exec-5] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-30 05:55:40.338  INFO 17420 --- [nio-8080-exec-5] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-30 05:55:40.339  INFO 17420 --- [nio-8080-exec-5] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-30 05:55:40.339  INFO 17420 --- [nio-8080-exec-5] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-30 05:55:40.519  INFO 17420 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@556933f4: startup date [Wed Nov 30 05:55:38 UTC 2016]; root of context hierarchy
+2016-11-30 05:55:40.609  INFO 17420 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/track],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.TrackResponse com.adof.gameserver.tas.TasController.tas(java.lang.String)
+2016-11-30 05:55:40.611  INFO 17420 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tmgr],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.ResponsePayload com.adof.gameserver.tas.TournamentMgrController.track(java.lang.String)
+2016-11-30 05:55:40.612  INFO 17420 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tcntrl],methods=[GET],produces=[application/json]}" onto public com.adof.gameserver.tas.TournamentStartStopApi$StartStopApiResponse com.adof.gameserver.tas.TournamentStartStopApi.track(java.lang.String,java.lang.String,java.lang.String)
+2016-11-30 05:55:40.615  INFO 17420 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-30 05:55:40.616  INFO 17420 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-30 05:55:40.618  INFO 17420 --- [nio-8080-exec-5] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-11-30 05:55:40.631  INFO 17420 --- [nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-11-30 05:55:40.645  INFO 17420 --- [nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 05:55:40.645  INFO 17420 --- [nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 05:55:40.691  INFO 17420 --- [nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 05:55:40.813  INFO 17420 --- [nio-8080-exec-5] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-30 05:55:40.830  INFO 17420 --- [nio-8080-exec-5] com.adof.gameserver.tas.Application      : Started Application in 2.76 seconds (JVM running for 456.106)
+[TasInitializer]: ====== Starting up!
+Properties file: /opt/tomcat9/webapps/tas/WEB-INF/classes/com/adof/games/tas.properties
+[EnvironmentManager]: = Instance initializer for environment variables.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+[TourmanentsMetaJob]: Static init called.
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 05:55:40
+:= Static initializer for Db connection pool.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+:= Initialization complete...
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 05:55:41
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[[Tid: 1=(Name: Tournament 1, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 40, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 2=(Name: Tournament 2, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 125, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 3=(Name: Tournament 3, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 250, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 4=(Name: Tournament 4, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 450, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))]]
+2016-11-30 05:55:41.286  INFO 17420 --- [nio-8080-exec-5] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2016-11-30 05:55:41.298  INFO 17420 --- [nio-8080-exec-5] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: http-nio-8080-exec-5
+2016-11-30 05:55:41.396  INFO 17420 --- [nio-8080-exec-5] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-11-30 05:55:41.404  INFO 17420 --- [nio-8080-exec-5] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2016-11-30 05:55:41.405  INFO 17420 --- [nio-8080-exec-5] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2016-11-30 05:55:41.406  INFO 17420 --- [nio-8080-exec-5] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-30 05:55:41.407  INFO 17420 --- [nio-8080-exec-5] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-11-30 05:55:41.407  INFO 17420 --- [nio-8080-exec-5] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2016-11-30 05:55:41.408  INFO 17420 --- [nio-8080-exec-5] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-30 05:55:41.450  INFO 17420 --- [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization started
+2016-11-30 05:55:41.453  INFO 17420 --- [nio-8080-exec-5] .s.AnnotationConfigWebApplicationContext : Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 05:55:41 UTC 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@556933f4
+2016-11-30 05:55:41.456  INFO 17420 --- [nio-8080-exec-5] .s.AnnotationConfigWebApplicationContext : No annotated classes found for specified class/package [sample.traditional.config]
+2016-11-30 05:55:41.512  INFO 17420 --- [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization completed in 61 ms
+30-Nov-2016 05:55:41.527 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat9/webapps/tas.war has finished in 4,847 ms
+
+===========================================
+# HelloJob: "2016-11-30 05:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+30-Nov-2016 14:22:54.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M13
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 3 2016 20:59:41 UTC
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.10.5
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_112-b16
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2016 14:22:54.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat9
+30-Nov-2016 14:22:54.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat9
+30-Nov-2016 14:22:54.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat9/conf/logging.properties
+30-Nov-2016 14:22:54.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2016 14:22:54.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2016 14:22:54.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2016 14:22:54.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat9
+30-Nov-2016 14:22:54.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat9
+30-Nov-2016 14:22:54.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat9/temp
+30-Nov-2016 14:22:54.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/mukthar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+30-Nov-2016 14:22:55.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2016 14:22:55.368 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 14:22:55.375 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2016 14:22:55.377 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2016 14:22:55.377 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1982 ms
+30-Nov-2016 14:22:55.451 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Nov-2016 14:22:55.451 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M13
+30-Nov-2016 14:22:55.524 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat9/webapps/tas.war
+30-Nov-2016 14:23:00.414 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-11-30 14:23:02.034  INFO 33064 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Starting Application on Mukthars-Air with PID 33064 (/opt/tomcat9/webapps/tas/WEB-INF/classes started by mukthar in /opt/tomcat9)
+2016-11-30 14:23:02.040  INFO 33064 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : No active profile set, falling back to default profiles: default
+2016-11-30 14:23:02.237  INFO 33064 --- [ost-startStop-1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c38e8e8: startup date [Wed Nov 30 14:23:02 IST 2016]; root of context hierarchy
+2016-11-30 14:23:03.978  INFO 33064 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1741 ms
+2016-11-30 14:23:04.896  INFO 33064 --- [ost-startStop-1] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2016-11-30 14:23:05.422  INFO 33064 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-30 14:23:05.424  INFO 33064 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2016-11-30 14:23:05.425  INFO 33064 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-30 14:23:05.425  INFO 33064 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-30 14:23:05.425  INFO 33064 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-30 14:23:05.425  INFO 33064 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-30 14:23:05.989  INFO 33064 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c38e8e8: startup date [Wed Nov 30 14:23:02 IST 2016]; root of context hierarchy
+2016-11-30 14:23:06.119  INFO 33064 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/track],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.TrackResponse com.adof.gameserver.tas.TasController.tas(java.lang.String)
+2016-11-30 14:23:06.121  INFO 33064 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tmgr],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.ResponsePayload com.adof.gameserver.tas.TournamentMgrController.track(java.lang.String)
+2016-11-30 14:23:06.122  INFO 33064 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tcntrl],methods=[GET],produces=[application/json]}" onto public com.adof.gameserver.tas.TournamentStartStopApi$StartStopApiResponse com.adof.gameserver.tas.TournamentStartStopApi.track(java.lang.String,java.lang.String,java.lang.String)
+2016-11-30 14:23:06.130  INFO 33064 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-30 14:23:06.130  INFO 33064 --- [ost-startStop-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-30 14:23:06.134  INFO 33064 --- [ost-startStop-1] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-11-30 14:23:06.153  INFO 33064 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-11-30 14:23:06.174  INFO 33064 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 14:23:06.175  INFO 33064 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 14:23:06.250  INFO 33064 --- [ost-startStop-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 14:23:06.460  INFO 33064 --- [ost-startStop-1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-30 14:23:06.483  INFO 33064 --- [ost-startStop-1] com.adof.gameserver.tas.Application      : Started Application in 5.583 seconds (JVM running for 13.371)
+[TasInitializer]: ====== Starting up!
+Properties file: /opt/tomcat9/webapps/tas/WEB-INF/classes/com/adof/games/tas.properties
+[EnvironmentManager]: = Instance initializer for environment variables.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+[TourmanentsMetaJob]: Static init called.
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 14:23:06
+:= Static initializer for Db connection pool.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+:= Initialization complete...
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 14:23:08
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[[Tid: 1=(Name: Tournament 1, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 40, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 2=(Name: Tournament 2, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 125, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 3=(Name: Tournament 3, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 250, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 4=(Name: Tournament 4, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 450, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))]]
+2016-11-30 14:23:08.821  INFO 33064 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2016-11-30 14:23:08.826  INFO 33064 --- [ost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2016-11-30 14:23:08.853  INFO 33064 --- [ost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-11-30 14:23:08.861  INFO 33064 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2016-11-30 14:23:08.863  INFO 33064 --- [ost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2016-11-30 14:23:08.865  INFO 33064 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-30 14:23:08.866  INFO 33064 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-11-30 14:23:08.866  INFO 33064 --- [ost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2016-11-30 14:23:08.866  INFO 33064 --- [ost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-30 14:23:08.970  INFO 33064 --- [ost-startStop-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization started
+2016-11-30 14:23:08.974  INFO 33064 --- [ost-startStop-1] .s.AnnotationConfigWebApplicationContext : Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 14:23:08 IST 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c38e8e8
+2016-11-30 14:23:08.978  INFO 33064 --- [ost-startStop-1] .s.AnnotationConfigWebApplicationContext : No annotated classes found for specified class/package [sample.traditional.config]
+2016-11-30 14:23:09.138  INFO 33064 --- [ost-startStop-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization completed in 167 ms
+30-Nov-2016 14:23:09.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat9/webapps/tas.war has finished in 13,672 ms
+30-Nov-2016 14:23:09.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/docs
+30-Nov-2016 14:23:09.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/docs has finished in 31 ms
+30-Nov-2016 14:23:09.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/examples
+30-Nov-2016 14:23:09.925 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/examples has finished in 695 ms
+30-Nov-2016 14:23:09.925 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/host-manager
+30-Nov-2016 14:23:09.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/host-manager has finished in 50 ms
+30-Nov-2016 14:23:09.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/manager
+30-Nov-2016 14:23:10.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/manager has finished in 26 ms
+30-Nov-2016 14:23:10.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat9/webapps/ROOT
+30-Nov-2016 14:23:10.018 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat9/webapps/ROOT has finished in 15 ms
+30-Nov-2016 14:23:10.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+30-Nov-2016 14:23:10.037 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+30-Nov-2016 14:23:10.038 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 14658 ms
+30-Nov-2016 14:23:44.673 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tas]
+2016-11-30 14:23:44.678  INFO 33064 --- [nio-8080-exec-1] .s.AnnotationConfigWebApplicationContext : Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 14:23:08 IST 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c38e8e8
+2016-11-30 14:23:44.705  INFO 33064 --- [nio-8080-exec-1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c38e8e8: startup date [Wed Nov 30 14:23:02 IST 2016]; root of context hierarchy
+2016-11-30 14:23:44.720  INFO 33064 --- [nio-8080-exec-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+:= Size of DB Connection pool - 60
+:= Conn pool is empty now Size = 0
+# CoinManager: := CoinManager thread terminated.
+2016-11-30 14:23:45.132  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-11-30 14:23:45.133  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-11-30 14:23:45.135  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+Shutting down!
+30-Nov-2016 14:23:45.143 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tas] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Nov-2016 14:23:45.149 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.151 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.152 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.153 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.154 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.155 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.155 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.158 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.160 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.161 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+30-Nov-2016 14:23:45.222 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat9/webapps/tas.war
+SLF4J: The requested version 1.7.16 by your slf4j binding is not compatible with [1.6]
+SLF4J: See http://www.slf4j.org/codes.html#version_mismatch for further details.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.5.RELEASE)
+
+2016-11-30 14:23:52.966  INFO 33064 --- [nio-8080-exec-1] com.adof.gameserver.tas.Application      : Starting Application on Mukthars-Air with PID 33064 (/opt/tomcat9/webapps/tas/WEB-INF/classes started by mukthar in /opt/tomcat9)
+2016-11-30 14:23:52.973  INFO 33064 --- [nio-8080-exec-1] com.adof.gameserver.tas.Application      : No active profile set, falling back to default profiles: default
+2016-11-30 14:23:53.054  INFO 33064 --- [nio-8080-exec-1] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5745954f: startup date [Wed Nov 30 14:23:53 IST 2016]; root of context hierarchy
+2016-11-30 14:23:55.687  INFO 33064 --- [nio-8080-exec-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2634 ms
+2016-11-30 14:23:57.217  INFO 33064 --- [nio-8080-exec-1] b.a.w.TomcatWebSocketContainerCustomizer : NonEmbeddedServletContainerFactory detected. Websockets support should be native so this normally is not a problem.
+2016-11-30 14:23:58.337  INFO 33064 --- [nio-8080-exec-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-30 14:23:58.340  INFO 33064 --- [nio-8080-exec-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'errorPageFilter' to: [/*]
+2016-11-30 14:23:58.341  INFO 33064 --- [nio-8080-exec-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-30 14:23:58.341  INFO 33064 --- [nio-8080-exec-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-30 14:23:58.341  INFO 33064 --- [nio-8080-exec-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-30 14:23:58.342  INFO 33064 --- [nio-8080-exec-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-30 14:23:59.484  INFO 33064 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5745954f: startup date [Wed Nov 30 14:23:53 IST 2016]; root of context hierarchy
+2016-11-30 14:23:59.684  INFO 33064 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/track],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.TrackResponse com.adof.gameserver.tas.TasController.tas(java.lang.String)
+2016-11-30 14:23:59.687  INFO 33064 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tmgr],methods=[POST],produces=[application/json]}" onto public com.adof.gameserver.dao.payloads.response.ResponsePayload com.adof.gameserver.tas.TournamentMgrController.track(java.lang.String)
+2016-11-30 14:23:59.688  INFO 33064 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tcntrl],methods=[GET],produces=[application/json]}" onto public com.adof.gameserver.tas.TournamentStartStopApi$StartStopApiResponse com.adof.gameserver.tas.TournamentStartStopApi.track(java.lang.String,java.lang.String,java.lang.String)
+2016-11-30 14:23:59.695  INFO 33064 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-30 14:23:59.696  INFO 33064 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-30 14:23:59.700  INFO 33064 --- [nio-8080-exec-1] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-11-30 14:23:59.727  INFO 33064 --- [nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-11-30 14:23:59.749  INFO 33064 --- [nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 14:23:59.749  INFO 33064 --- [nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 14:23:59.876  INFO 33064 --- [nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-30 14:24:00.293  INFO 33064 --- [nio-8080-exec-1] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-30 14:24:00.317  INFO 33064 --- [nio-8080-exec-1] com.adof.gameserver.tas.Application      : Started Application in 8.557 seconds (JVM running for 67.202)
+[TasInitializer]: ====== Starting up!
+Properties file: /opt/tomcat9/webapps/tas/WEB-INF/classes/com/adof/games/tas.properties
+[EnvironmentManager]: = Instance initializer for environment variables.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+[TourmanentsMetaJob]: Static init called.
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 14:24:00
+:= Static initializer for Db connection pool.
+Key : tounament.entry.restrict.minute, Value : 59
+Key : db.host, Value : 139.59.0.63
+Key : daily.bonus.coins, Value : 50
+Key : db.name, Value : wallet_staging
+Key : db.driver, Value : org.postgresql.Driver
+Key : db.port, Value : 5432
+Key : db.user, Value : deploy
+Key : db.max.connections, Value : 60
+Key : db.password, Value : adofg@mes786!
+:= Initialization complete...
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[TourmanentsMetaJob]: #:= Refresh on tournaments metadata...
+2016-11-30 14:24:02
+# [PostgresConnectionPool]: DbConnection pool size (Claim) = 59
+PostgresDbHelper: Executing the SQL: SELECT * FROM tournament_meta
+PostgresDbHelper: #:= Finally is not implemented yet.
+[TourmanentsMetaJob]: Release DbConnection...
+# [PostgresConnectionPool]: DbConnection pool size (Submit) = 60
+[[Tid: 1=(Name: Tournament 1, Tid: 1, Coins: 20, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 40, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 2=(Name: Tournament 2, Tid: 2, Coins: 50, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 125, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 3=(Name: Tournament 3, Tid: 3, Coins: 100, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 250, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))], [Tid: 4=(Name: Tournament 4, Tid: 4, Coins: 150, ActiveUserCount: 0, MaxUsers: 10, MinUsers: 5, Session: 120, Session Unit: seconds, Is Tournament Active: false, Tournament Prize: 450, Winner: User=(Uuid=0, Name=, EmailId=, FacebookId=, Age=0, Gender=, PlayedTournament=false, ConcludedTournament=false, HasWon=false))]]
+2016-11-30 14:24:02.519  INFO 33064 --- [nio-8080-exec-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2016-11-30 14:24:02.523  INFO 33064 --- [nio-8080-exec-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: http-nio-8080-exec-1
+2016-11-30 14:24:02.543  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-11-30 14:24:02.544  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2016-11-30 14:24:02.546  INFO 33064 --- [nio-8080-exec-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2016-11-30 14:24:02.547  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-30 14:24:02.547  INFO 33064 --- [nio-8080-exec-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-11-30 14:24:02.547  INFO 33064 --- [nio-8080-exec-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2016-11-30 14:24:02.547  INFO 33064 --- [nio-8080-exec-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-30 14:24:02.576  INFO 33064 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization started
+2016-11-30 14:24:02.583  INFO 33064 --- [nio-8080-exec-1] .s.AnnotationConfigWebApplicationContext : Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 14:24:02 IST 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5745954f
+2016-11-30 14:24:02.587  INFO 33064 --- [nio-8080-exec-1] .s.AnnotationConfigWebApplicationContext : No annotated classes found for specified class/package [sample.traditional.config]
+2016-11-30 14:24:02.688  INFO 33064 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'appServlet': initialization completed in 111 ms
+30-Nov-2016 14:24:02.698 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat9/webapps/tas.war has finished in 17,475 ms
+
+===========================================
+# HelloJob: "2016-11-30 14:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-11-30 15:20:00" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-11-30 15:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-11-30 16:20:00" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-11-30 16:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-11-30 17:22:41" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-01 15:31:15" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+
+===========================================
+# HelloJob: "2016-12-01 15:31:15" Hello muks, Quartz job scheduled and running 
+===========================================
+
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+# job scheduler started.... 
+
+===========================================
+# [DailyBonusResetJob]: 2016-12-01 15:31:16
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-01 15:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+
+===========================================
+# HelloJob: "2016-12-01 17:12:23" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# HelloJob: "2016-12-01 17:12:23" Hello muks, Quartz job scheduled and running 
+===========================================
+
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-01 17:20:00" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-01 17:56:00" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-01 18:21:20" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-01 19:17:30" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-01 21:18:39" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-01 21:18:39" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+
+===========================================
+# HelloJob: "2016-12-01 22:34:27" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+# HelloJob: "2016-12-01 22:34:27" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-01 23:50:13" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-01 23:50:13" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-02 01:51:03" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# job scheduler started.... 
+# HelloJob: "2016-12-02 01:51:03" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# [DailyBonusResetJob]: 2016-12-02 01:51:03
+===========================================
+
+
+===========================================
+
+===========================================
+# HelloJob: "2016-12-02 03:51:53" Tournament Arbitrator Started.
+===========================================
+
+# HelloJob: "2016-12-02 03:51:53" Hello muks, Quartz job scheduled and running 
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+
+===========================================
+# HelloJob: "2016-12-02 05:52:42" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# HelloJob: "2016-12-02 05:52:42" Hello muks, Quartz job scheduled and running 
+===========================================
+
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+
+===========================================
+# HelloJob: "2016-12-02 07:57:17" Hello muks, Quartz job scheduled and running 
+===========================================
+
+# HelloJob: "2016-12-02 07:57:17" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-02 08:58:02" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-02 08:58:02" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-02 10:13:47" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-02 10:13:47" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-02 11:54:21" Hello muks, Quartz job scheduled and running 
+===========================================
+
+
+===========================================
+# HelloJob: "2016-12-02 11:54:21" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-08 11:27:48" Tournament Arbitrator Started.
+===========================================
+
+# [TournamentArbitratorJob]:  Arbitrator job has started...
+# [TournamentArbitratorJob]: Inserting records into Db.
+Tournament History: []
+
+===========================================
+# HelloJob: "2016-12-08 11:27:48" Hello muks, Quartz job scheduled and running 
+===========================================
+
+# job scheduler started.... 
+
+===========================================
+# [DailyBonusResetJob]: 2016-12-08 11:27:48
+===========================================
+
+08-Dec-2016 11:37:59.678 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tas]
+2016-12-08 11:37:59.763  INFO 33064 --- [gine[Catalina]]] .s.AnnotationConfigWebApplicationContext : Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Wed Nov 30 14:24:02 IST 2016]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5745954f
+2016-12-08 11:37:59.982  INFO 33064 --- [gine[Catalina]]] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5745954f: startup date [Wed Nov 30 14:23:53 IST 2016]; root of context hierarchy
+2016-12-08 11:38:00.199  INFO 33064 --- [gine[Catalina]]] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+:= Size of DB Connection pool - 60
+:= Conn pool is empty now Size = 0
+# CoinManager: := CoinManager thread terminated.
+2016-12-08 11:38:00.361  INFO 33064 --- [gine[Catalina]]] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-12-08 11:38:00.369  INFO 33064 --- [gine[Catalina]]] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-12-08 11:38:00.374  INFO 33064 --- [gine[Catalina]]] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+Shutting down!
+08-Dec-2016 11:38:00.482 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tas] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Dec-2016 11:38:00.487 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.488 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.489 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.489 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.490 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.491 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.492 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.492 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+08-Dec-2016 11:38:00.493 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tas] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
